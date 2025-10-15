@@ -136,6 +136,8 @@ func getLanguageName(code string) string {
 		return "Finnish"
 	case "AR":
 		return "Arabic"
+	case "SI":
+		return "Sicilian"
 	default:
 		// Default to English if the code is unknown
 		return "English"
